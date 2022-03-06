@@ -8,21 +8,48 @@ body{
 
 
 p {
-    display: block;
-    margin-block-start: 1em;
+    /* display: block; */
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align: justify;
-    letter-spacing: 5px;
-    padding-top: 10%;
-    padding-right: 30%;
-    padding-left: 10%;
+    text-align: justify; */
+    /* letter-spacing: 0px; */
+    /* padding-top: 10%; */
+    /* padding-right: 30%; */
+    /* padding-left: 10%; */
 }
 
-#landing h1{
+/* #landing h1{
+    /* text-align: center; */
+    /* position: relative; */
+} */
+
+.heading {
     text-align: center;
-    position: relative;
+    align-items: center;
+    margin: auto;
+    width: 900px;
+    /* margin-bottom: 0px; */
+    /* padding-bottom: 0px; */
+}
+
+.heading h1 {
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+    /* width: 900px; */
+}
+
+.heading p {
+    margin-top: 20px; 
+    padding-top: 0px;
+}
+
+.landing-description {
+    width: 600px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 #landing{
@@ -59,9 +86,74 @@ p {
 }
 
 #leaf1{
-    position: absolute;
-    transform: rotate(-70deg);
-    top: -700px;
-    left: 100px;
+    position: relative;
+    transform: rotate(170deg);
+    /* top: -210px; */
+    top: -33vh;
+    left: -110px;
+    /* left: -10vw; */
+    width: 350px;
 }
 
+#leaf2 {
+    position: relative;
+    width: 450px;
+    transform: rotate(-130deg);
+    /* top: -220px; */
+    top: -32vh;
+    left: 280px;
+}
+
+#leaf3 {
+    position: relative;
+    width: 200px;
+    transform: rotate(180deg);
+    /* top: -280px; */
+    top: -42vh;
+    left: 60px;
+}
+
+#leaf4 {
+    position: relative;
+    transform: rotate(-10deg);
+    width: 250px;
+    top: 280px;
+    left: -200px;
+}
+
+#leaf5 {
+    position: relative;
+    width: 300px;
+    transform: rotate(-90deg);
+    /* left: 580px; */
+    left: 43vw;
+    top: -100px; 
+
+}
+
+#leaf6 {
+    position: relative;
+    width: 350px;
+    transform: rotate(60deg);
+    /* left: -550px; */
+    left: -43vw;
+    top: 50px;
+}
+
+#leaf7 {
+    position: relative;
+    width: 400px;
+    /* top: 250px; */
+    top: 38vh;
+    left: 250px;
+}
+
+#leaf8 {
+    position: relative;
+    width: 220px;
+    transform: rotate(130deg);
+    /* top: -270px; */
+    top: -44vh;
+    /* left: -630px; */
+    left: -45vw;
+}
