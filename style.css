@@ -247,7 +247,7 @@ p {
     background-position: right;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .grid {
         display: block;
     }
@@ -267,7 +267,7 @@ p {
 }
 .image-slider img {
     border-radius: 5px;
-    width: 90%;
+    width: 350px;
     height: 220px;
 }
 
@@ -327,3 +327,9 @@ p {
     width: 15%;
 }
 
+.author{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
