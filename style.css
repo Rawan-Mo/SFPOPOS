@@ -193,6 +193,13 @@ p {
 
 .main-body h3 {
     font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.main-body p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .capital {
@@ -299,49 +306,15 @@ height: auto;
 }
 .image-slider img {
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
+    height: 220px;
 }
 
-.mySlides {display:none;}
+.mySlides-1 {display:none;}
 .mySlides-2 {display:none;}
-
-
-.button{
-    border:none;
-    display:inline-block;
-    padding:8px 16px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    color:white;
-    background-color:#B3CCB1;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #BFD0D1;
-}
-
-/* 
-.display-left{
-    position:relative;
-    top:50%;
-    left:0%;
-    transform:translate(0%,-50%);
-    -ms-transform:translate(-0%,-50%)
-    }
-.display-right{
-    position:relative;
-    top:50%;
-    right:0%;
-    transform:translate(0%,-50%);
-    -ms-transform:translate(0%,-50%)
-    } */
-
-
+.mySlides-3 {display:none;}
+.mySlides-4 {display:none;}
+.mySlides-5 {display:none;}
 
 
 .popos {
@@ -353,6 +326,7 @@ height: auto;
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
 }
 
 .popos-header {
