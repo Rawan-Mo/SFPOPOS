@@ -247,6 +247,12 @@ p {
     background-position: right;
 }
 
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: block;
+    }
+}
+
 .popos{
     font-size: 20px;
     /* color: #282828; */
