@@ -247,11 +247,7 @@ p {
     background-position: right;
 }
 
-@media only screen and (max-width: 500px) {
-    .grid {
-        display: block;
-    }
-}
+
 
 .popos{
     font-size: 20px;
@@ -287,6 +283,50 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: block;
+        margin: auto;
+        
+    }
+    .image-slider img {
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+    .popos-text {
+        overflow-wrap: break-word;
+
+        max-width: 40rem;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 1rem 1rem;
+    }
+
+    .popos-header {
+        max-width: 40rem;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1rem 1rem;
+
+    }
+
+    .popos {
+        display: block;
+        margin: 0 auto;
+    }
+    .rating {
+        display: flex;
+        margin: 0 auto;
+    }
+    .landing-description {
+        max-width: 40rem;
+        overflow-wrap: break-word;
+
+    }
+
 }
 
 .popos-header {
